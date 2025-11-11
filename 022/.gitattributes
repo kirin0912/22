@@ -1,0 +1,18 @@
+# Normalize line endings for all files
+* text=auto
+
+# Ensure Python files use LF line endings
+*.py text eol=lf
+
+# Ensure batch files use CRLF line endings on Windows
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Mark binary files
+*.jpg binary
+*.png binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar.gz binary
